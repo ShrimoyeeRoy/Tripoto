@@ -1,0 +1,250 @@
+
+*{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+a{
+color: white;
+text-decoration: none;
+}
+
+#image1{
+background: url("https://cdn1.tripoto.com/media/filter/nxxl/img/2215463/Image/1669110487_tony_reid_umjur3st0ae_unsplash.jpg.webp");
+height:320px;
+background-position: center;
+color: aliceblue;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+}
+input{
+width:98%;
+padding: 10px;
+}
+nav{
+        
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        color: white;
+     }
+     nav>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     nav>div:nth-child(2){
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+     }
+     select{
+        border: 0;
+      font-weight: 800;
+      background-color: transparent;
+      color: white;
+     }
+      
+#heromain{
+  display: flex;
+  gap: 10px;
+  width:100%;
+ margin: auto;
+ margin-top: 1rem;
+}
+#heromain>div{
+background-color: white;
+color: blue;
+border-radius:30px;
+padding: 10px;
+border: 1px solid blue;
+}
+
+#heromain2{
+  display: flex;
+  gap: 10px;
+  width: 76%;
+ margin: auto;
+ margin-top: 1rem;
+ margin-left:-8px
+}
+
+#heromain2>div{
+background-color: white;
+color: blue;
+border-radius:30px;
+padding: 10px;
+border:1px solid blue;
+}
+
+#firstrow{
+display:flex;
+gap:15px;
+width: 40%;
+padding:10px;
+margin-left:4rem;
+}
+#firstrow>img{
+height: 20px;
+margin-top:1.5rem;
+}
+#firstrow>h5{
+margin-left: -10px;
+font-weight: 100;
+}
+
+.firstimg>img{
+height:200px;
+width:100%;
+border-radius: 5%;
+}
+
+
+
+.firstimg>h5{
+color: teal;
+margin-bottom: ;
+}
+
+h2{
+margin: auto;
+}
+.secondrow{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap:25px;
+width: 90%;
+margin: auto;
+}
+ .secondimg{
+ display: flex;
+gap: 5px;
+padding: 5px;
+margin-top: -2rem;
+}
+.secondimg>h5{
+color: teal;}   
+
+.thirdimg{
+display: flex;
+ gap:30px;
+ margin-top: -2.8rem;
+ margin-bottom: -2rem;
+}
+.thirdimg>h3>span{
+color: grey;
+font-weight: 100;
+}
+
+
+.thirdimg>h5{
+border-radius:10px;
+background-color: black;
+color: white;
+padding: 5px;
+margin-left: 1rem;
+}
+.right{
+display: flex;
+align-items: center;
+gap: 1px;
+}
+.right>img{
+height:30px;
+width:10%;
+aspect-ratio: 3/2;
+border-radius:100%;
+}
+.right>h5{
+font-weight:500;
+}
+
+.couple{
+display: flex;
+gap:25px;
+width:90%;
+margin-left:3.8rem;
+}
+.couple>img{
+height:180px;
+width:60%;
+border-radius:1%;
+}
+
+footer{
+display: flex;
+justify-content: space-around;
+}
+footer>div>h5{
+font-weight: 50;
+color:black;
+margin-left:4rem;
+font-size: larger;
+margin-bottom: -0.5rem;
+}
+.logo>p{
+margin-left:0.5rem;
+
+
+}
+.lo{
+color: blue;
+margin-top: 15px;
+}
+.lo>p{
+font-weight:50;
+font-size:5px;
+}
+.small{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap:0.5px;
+}
+.small>img{
+height: 20px;
+margin-bottom: 20px;
+}
+hr{
+color: rgb(245, 239, 239);
+}
+
+
+
+#main{
+margin: auto;
+width:100%;
+}
+#main>h1,p{
+margin-left:4rem;
+}
+
+#main>p{
+font-size:16px;
+margin-right:5rem;
+
+}
+#main>p>span{
+color: blue;}
+
+
+
+#see{
+margin-left:40rem;
+margin-right:38rem;
+
+}
+#see>h4{
+text-align: center;
+background-color:rgb(114, 196, 252);
+color: white;
+font-weight: 420;
+padding: 5px;
+}
+
+input{
+height: 40px;
+border-radius: 5px;}

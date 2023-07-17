@@ -1,0 +1,593 @@
+* {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   
+}
+.header-content
+{
+overflow: hidden;
+padding: 10px;
+}
+
+
+#image1 {
+   background: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
+   height: 300px;
+   background-position: center;
+   color: aliceblue;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+input {
+   width: -webkit-fill-available;
+   padding: 10px;
+}
+
+nav {
+
+   height: 40px;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   width: 100%;
+   color: white;
+}
+
+nav>div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav>div:nth-child(2) {
+   display: flex;
+   justify-content: space-evenly;
+   width: 50%;
+}
+
+select {
+   border: 0;
+   font-weight: 800;
+   background-color: transparent;
+   color: white;
+}
+
+#pic {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   margin: auto;
+   margin-top: 5%;
+   width: 90%;
+}
+
+#pic>div>img {
+   width: 100%;
+}
+
+#pic2 {
+   display: flex;
+   gap: 10px;
+   margin: auto;
+   margin-top: 3rem;
+   width: 90%;
+}
+
+.m1>img {
+   width: 100%;
+   border-radius: 5px;
+   aspect-ratio: 3/2;
+}
+
+.m1>h4 {
+   color: red;
+}
+
+#car {
+   background-position: center;
+   width: 90%;
+   margin: auto;
+}
+
+#car>img {
+   width: 100%;
+}
+
+.zole {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   margin: auto;
+   margin-top: 3rem;
+   width: 90%;
+}
+
+.zole>div>img {
+   width: 100%;
+   border-radius: 5%;
+   aspect-ratio: 3/2;
+}
+
+.zole>div>p>span {
+   color: brown;
+   font-weight: 700;
+}
+
+.secondrow {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   aspect-ratio: 3/2;
+   gap: 15px;
+   margin: auto;
+   margin-top: 3rem;
+   width: 90%;
+}
+
+.secondrow>div>img {
+   width: 100%;
+   border-radius: 5%;
+   aspect-ratio: 3/2;
+}
+
+.secondrow>div>p>span {
+   color: aqua;
+   font-weight: 700;
+}
+
+#pahar {
+   height: 300px;
+   background-position: center;
+   width: 90%;
+   margin: auto;
+   
+}
+
+#pahar>img {
+   width: 100%;
+}
+
+.thirdrow {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   aspect-ratio: 3/2;
+   gap: 15px;
+   margin: auto;
+   margin-top: 3rem;
+   width: 90%;
+}
+
+.thirdrow>div>img {
+   width: 100%;
+   border-radius: 5%;
+   aspect-ratio: 3/2;
+}
+
+.fifthrow {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   margin: auto;
+   margin-top: -32rem;
+   width: 90%;
+}
+
+.fifthrow>div>img {
+   width: 100%;
+   border-radius: 5px;
+   aspect-ratio: 3/2;
+}
+
+.fifthrow>div>h3 {
+   margin-left: 8px;
+}
+
+.row5 {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 15px;
+   width: 90%;
+   margin: auto;
+   margin-top: 30px;
+}
+
+.total>img {
+   width: 100%;
+}
+.total
+{
+box-shadow:  10px 10px #eee;
+margin-bottom: 10px;
+}
+
+
+.loc {
+   display: flex;
+   justify-content: space-between;
+   padding: 5px;
+   margin: -25px 0 -35px 0;
+}
+
+.loc>h4 {
+   margin-left: -10rem;
+   color: teal;
+}
+
+.location>h4
+{
+margin-left: 0rem !important;
+}
+
+.loc>h5 {
+   border-radius: 20px;
+   background-color: teal;
+   padding: 10px;
+   color: white;
+}
+
+.loc>img {
+   margin-top: -15px;
+}
+
+.rupees {
+   display: flex;
+   justify-content: space-between;
+}
+
+.rupees>h5 {
+   border: 1px solid teal;
+   color: teal;
+   border-radius: 10%;
+   padding: 5px;
+   font-weight: 500;
+}
+
+.right {
+   display: flex;
+   align-items: center;
+}
+
+.right>img {
+   height: 35px;
+   width: 10%;
+   aspect-ratio: 3/2;
+   border-radius: 100%;
+}
+
+.right>h5 {
+   font-weight: 500;
+}
+
+.carzole {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   margin: auto;
+   margin-top: 3rem;
+   width: 90%;
+}
+
+.carzole>div>img {
+   width: 100%;
+   border-radius: 5%;
+   aspect-ratio: 3/2;
+   object-fit: contain;
+}
+
+.carzole>div>img:nth-child(2) {
+   height: 100rem;
+}
+
+.carzole>div>p>span {
+   color: teal;
+   font-weight: 700;
+}
+
+.carzole1 {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   margin: auto;
+   margin-top: 1rem;
+   width: 90%;
+}
+
+.carzole1>div>img {
+   width: 100%;
+   border-radius: 5%;
+   aspect-ratio: 3/2;
+   object-fit: contain;
+}
+
+#pahar1 {
+   height: 300px;
+   background-position: center;
+   width: 90%;
+   margin: auto;
+   margin-top: 2rem;
+}
+
+#pahar1>img {
+   width: 100%;
+}
+
+.carzole4 {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   margin: auto;
+   margin-top: 1rem;
+   width: 90%;
+   aspect-ratio: 3/2;
+   margin-bottom: -35rem;
+}
+
+.carzole4>div>img {
+   width: 100%;
+   border-radius: 5%;
+   aspect-ratio: 3/2;
+   object-fit: contain;
+}
+
+.cities {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   width: 90%;
+   margin: auto;
+   margin-top: 25px;
+
+}
+
+.cities>img {
+   height: 300px;
+   width: 100%;
+}
+
+.last {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   margin: auto;
+   margin-top: 2rem;
+   width: 90%;
+
+}
+
+.last>div>img {
+   width: 100%;
+   border-radius: 5%;
+   aspect-ratio: 3/2;
+}
+
+.last>div>p>span {
+   color: aqua;
+   font-weight: 400;
+}
+
+
+footer {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10%;
+}
+
+footer>h5 {
+   font: weight 50px;
+   color: grey;
+}
+
+.lo {
+   color: blue;
+   margin-top: 15px;
+}
+
+.lo>p {
+   font-weight: 50;
+   font-size: 5px;
+}
+
+.small {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   gap: 0.5px;
+}
+
+.small>img {
+   height: 20px;
+   margin-bottom: 20px;
+}
+
+hr {
+   color: rgb(245, 239, 239);
+}
+
+.row51 {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   width: 90%;
+   margin: auto;
+   margin-top: 30px;
+   aspect-ratio: 3/2;
+   margin-bottom: -25rem;
+}
+
+.total1 {
+   text-align: center;
+}
+
+.total1>img {
+   width: 100%;
+}
+
+.loc2 {
+   display: flex;
+   justify-content: space-between;
+   padding: 5px;
+   margin: -25px 0 -35px 0;
+}
+
+.loc2>h4 {
+   margin: 0 0.5 0 -10rem;
+   color: teal;
+}
+
+.loc2>h5 {
+   border-radius: 20px;
+   background-color: teal;
+   padding: 10px;
+   color: white;
+}
+
+.loc2>img {
+   margin-top: -15px;
+}
+
+.sectionHeading
+{
+margin-left:4rem;
+
+}
+.sectionContentBannerHeading
+{
+margin:4rem 0 0 4rem ;
+}
+
+.fa
+{
+margin:0px 5px 0px 5px;
+}
+
+.card-content
+{
+padding: 10px;
+}
+@media screen and (max-width: 768px) {
+
+
+
+   .row51 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 90%;
+      margin: auto;
+      margin-top: 30px;
+      aspect-ratio: 3/2;
+      margin-bottom: -25rem;
+   }
+
+   .carzole {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     
+   }
+
+
+   .carzole4 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin: auto;
+      margin-top: 1rem;
+      width: 90%;
+      aspect-ratio: 3/2;
+      margin-bottom: -35rem;
+   }
+
+   .small {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5px;
+   }
+
+   .cities {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      width: 90%;
+      margin: auto;
+      margin-top: 25px;
+
+   }
+
+   .last {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin: auto;
+      margin-top: 2rem;
+      width: 90%;
+
+   }
+
+   .zole {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin: auto;
+      
+      width: 90%;
+   }
+
+   .secondrow {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      aspect-ratio: 3/2;
+      gap: 15px;
+      margin: auto;
+      margin-top: 3rem;
+      width: 90%;
+   }
+
+   .thirdrow {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      aspect-ratio: 3/2;
+
+   }
+
+   #pic2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+   }
+  #pic {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+   }
+.sectionHeading
+{
+margin-left:1rem;
+
+}
+
+.sectionContentBannerHeading
+{
+margin:1rem 0 0 1rem ;
+}
+
+.row5 {
+    display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 15px;
+   width: 90%;
+   margin: auto;
+   margin-top: 30px;
+}
+
+}
+
